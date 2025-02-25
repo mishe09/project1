@@ -1,0 +1,72 @@
+@font-face {
+    font-family:"Rubik";
+    src: url(Rubik-VariableFont_wght.ttf);
+}
+body{
+    margin: 0;
+}
+
+.head{
+    background-image: url(/PROJECT2/background.jpg);
+    background-size: cover;
+    height: 450px;
+    text-align: center;
+    
+}
+
+/* .content{
+    padding-top: 50px;
+    text-align: center;
+} */
+
+.smallimage{
+     margin-top: 40px;
+    
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 60px;
+    width: 60px;
+    border: 5px solid rgb(235, 171, 33);
+    border-radius: 50%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-weight: 30px;
+    font-family: "Rubik";
+}
+
+.phead{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+a{
+    
+    font-size: 20px;
+}
+
+.bodywrite{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-content: center;
+    max-width: 900px;
+    padding: 60px;
+    margin-left: 50px;
+}
+
+.write{
+    margin-right: 50px;
+    margin-top: -27px;
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+    background-color:  rgb(235, 171, 33);
+}
+
